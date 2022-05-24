@@ -6,20 +6,20 @@ type Kubus struct {
 
 func (k *Kubus) Keliling() float64 {
 	r := k.Rusuk
-	hasil := 12 * r
-	return hasil
+	kelKubus := 12 * r
+	return kelKubus
 }
 
 func (k *Kubus) Luas() float64 {
 	r := k.Rusuk
 
-	hasil := r * r * 6
-	return hasil
+	luasKubus := r * r * 6
+	return luasKubus
 }
 
 func (k *Kubus) Volume() float64 {
 	r := k.Rusuk
 
-	hasil := r * r * r
-	return hasil
+	volKubus := r * r * r
+	return volKubus
 }
